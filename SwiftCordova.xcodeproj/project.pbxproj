@@ -15,6 +15,7 @@
 		851C89D41B78197500E78F51 /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 851C89C81B78189B00E78F51 /* libCordova.a */; };
 		851C89E31B78275D00E78F51 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 851C89E21B78275D00E78F51 /* www */; };
 		851C89E51B78292E00E78F51 /* Readme.md in Sources */ = {isa = PBXBuildFile; fileRef = 851C89E41B78292E00E78F51 /* Readme.md */; };
+		851C89E71B7829D900E78F51 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 851C89E61B7829D900E78F51 /* .gitignore */; };
 		8524B6491B7762CB0045F518 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8524B6481B7762CB0045F518 /* AppDelegate.swift */; };
 		8524B64B1B7762CB0045F518 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8524B64A1B7762CB0045F518 /* FirstViewController.swift */; };
 		8524B64D1B7762CB0045F518 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8524B64C1B7762CB0045F518 /* SecondViewController.swift */; };
@@ -63,6 +64,7 @@
 		851C89D61B781E2B00E78F51 /* Cordova-Briding-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cordova-Briding-Header.h"; sourceTree = "<group>"; };
 		851C89E21B78275D00E78F51 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 		851C89E41B78292E00E78F51 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		851C89E61B7829D900E78F51 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		8524B6431B7762CB0045F518 /* SwiftCordova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCordova.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8524B6471B7762CB0045F518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8524B6481B7762CB0045F518 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 		8524B63A1B7762CB0045F518 = {
 			isa = PBXGroup;
 			children = (
+				851C89E61B7829D900E78F51 /* .gitignore */,
 				851C89E41B78292E00E78F51 /* Readme.md */,
 				851C89E21B78275D00E78F51 /* www */,
 				851C89D51B781B5900E78F51 /* Frameworks */,
@@ -320,6 +323,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				851C89E71B7829D900E78F51 /* .gitignore in Resources */,
 				8524B6711B7764270045F518 /* indexSlideShow-2.jpg in Resources */,
 				851C89E31B78275D00E78F51 /* www in Resources */,
 				8524B6501B7762CB0045F518 /* Main.storyboard in Resources */,
