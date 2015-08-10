@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		851C89BB1B7816D700E78F51 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = 851C89BA1B7816D700E78F51 /* config.xml */; };
+		851C89CB1B78192100E78F51 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 851C89CA1B78192100E78F51 /* AssetsLibrary.framework */; };
+		851C89CD1B78192900E78F51 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 851C89CC1B78192900E78F51 /* CoreLocation.framework */; };
+		851C89CF1B78193300E78F51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 851C89CE1B78193300E78F51 /* CoreGraphics.framework */; };
+		851C89D11B78193B00E78F51 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 851C89D01B78193B00E78F51 /* MobileCoreServices.framework */; };
+		851C89D41B78197500E78F51 /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 851C89C81B78189B00E78F51 /* libCordova.a */; };
+		851C89E31B78275D00E78F51 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 851C89E21B78275D00E78F51 /* www */; };
+		851C89E51B78292E00E78F51 /* Readme.md in Sources */ = {isa = PBXBuildFile; fileRef = 851C89E41B78292E00E78F51 /* Readme.md */; };
 		8524B6491B7762CB0045F518 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8524B6481B7762CB0045F518 /* AppDelegate.swift */; };
 		8524B64B1B7762CB0045F518 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8524B64A1B7762CB0045F518 /* FirstViewController.swift */; };
 		8524B64D1B7762CB0045F518 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8524B64C1B7762CB0045F518 /* SecondViewController.swift */; };
@@ -14,9 +22,28 @@
 		8524B6521B7762CC0045F518 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8524B6511B7762CC0045F518 /* Images.xcassets */; };
 		8524B6551B7762CC0045F518 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8524B6531B7762CC0045F518 /* LaunchScreen.xib */; };
 		8524B6611B7762CC0045F518 /* SwiftCordovaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8524B6601B7762CC0045F518 /* SwiftCordovaTests.swift */; };
+		8524B66B1B77634A0045F518 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8524B66A1B77634A0045F518 /* Misc.swift */; };
+		8524B6701B7764270045F518 /* indexSlideShow-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8524B66E1B7764270045F518 /* indexSlideShow-1.jpg */; };
+		8524B6711B7764270045F518 /* indexSlideShow-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8524B66F1B7764270045F518 /* indexSlideShow-2.jpg */; };
+		8524B67A1B7766590045F518 /* Auk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8524B6781B7766590045F518 /* Auk.swift */; };
+		8524B67B1B7766590045F518 /* Moa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8524B6791B7766590045F518 /* Moa.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		851C89C71B78189B00E78F51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 851C89C31B78189B00E78F51 /* CordovaLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 68A32D7114102E1C006B237C;
+			remoteInfo = CordovaLib;
+		};
+		851C89D21B78195500E78F51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 851C89C31B78189B00E78F51 /* CordovaLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
 		8524B65B1B7762CC0045F518 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8524B63B1B7762CB0045F518 /* Project object */;
@@ -27,6 +54,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		851C89BA1B7816D700E78F51 /* config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = config.xml; sourceTree = "<group>"; };
+		851C89C31B78189B00E78F51 /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
+		851C89CA1B78192100E78F51 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		851C89CC1B78192900E78F51 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		851C89CE1B78193300E78F51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		851C89D01B78193B00E78F51 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		851C89D61B781E2B00E78F51 /* Cordova-Briding-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cordova-Briding-Header.h"; sourceTree = "<group>"; };
+		851C89E21B78275D00E78F51 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		851C89E41B78292E00E78F51 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		8524B6431B7762CB0045F518 /* SwiftCordova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCordova.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8524B6471B7762CB0045F518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8524B6481B7762CB0045F518 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +74,11 @@
 		8524B65A1B7762CC0045F518 /* SwiftCordovaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCordovaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8524B65F1B7762CC0045F518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8524B6601B7762CC0045F518 /* SwiftCordovaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCordovaTests.swift; sourceTree = "<group>"; };
+		8524B66A1B77634A0045F518 /* Misc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Misc.swift; sourceTree = "<group>"; };
+		8524B66E1B7764270045F518 /* indexSlideShow-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "indexSlideShow-1.jpg"; path = "Resources/Images/indexSlideShow-1.jpg"; sourceTree = "<group>"; };
+		8524B66F1B7764270045F518 /* indexSlideShow-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "indexSlideShow-2.jpg"; path = "Resources/Images/indexSlideShow-2.jpg"; sourceTree = "<group>"; };
+		8524B6781B7766590045F518 /* Auk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Auk.swift; path = libs/Auk/Auk.swift; sourceTree = "<group>"; };
+		8524B6791B7766590045F518 /* Moa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Moa.swift; path = libs/Auk/Moa.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +86,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				851C89D41B78197500E78F51 /* libCordova.a in Frameworks */,
+				851C89D11B78193B00E78F51 /* MobileCoreServices.framework in Frameworks */,
+				851C89CF1B78193300E78F51 /* CoreGraphics.framework in Frameworks */,
+				851C89CD1B78192900E78F51 /* CoreLocation.framework in Frameworks */,
+				851C89CB1B78192100E78F51 /* AssetsLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +104,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		851C89C41B78189B00E78F51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				851C89C81B78189B00E78F51 /* libCordova.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		851C89D51B781B5900E78F51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				851C89D01B78193B00E78F51 /* MobileCoreServices.framework */,
+				851C89CE1B78193300E78F51 /* CoreGraphics.framework */,
+				851C89CC1B78192900E78F51 /* CoreLocation.framework */,
+				851C89CA1B78192100E78F51 /* AssetsLibrary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8524B63A1B7762CB0045F518 = {
 			isa = PBXGroup;
 			children = (
+				851C89E41B78292E00E78F51 /* Readme.md */,
+				851C89E21B78275D00E78F51 /* www */,
+				851C89D51B781B5900E78F51 /* Frameworks */,
 				8524B6451B7762CB0045F518 /* SwiftCordova */,
 				8524B65D1B7762CC0045F518 /* SwiftCordovaTests */,
 				8524B6441B7762CB0045F518 /* Products */,
+				851C89C31B78189B00E78F51 /* CordovaLib.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +148,9 @@
 		8524B6451B7762CB0045F518 /* SwiftCordova */ = {
 			isa = PBXGroup;
 			children = (
+				851C89BA1B7816D700E78F51 /* config.xml */,
+				8524B6721B7764880045F518 /* libs */,
+				8524B66C1B7763A80045F518 /* Resources */,
 				8524B6481B7762CB0045F518 /* AppDelegate.swift */,
 				8524B64A1B7762CB0045F518 /* FirstViewController.swift */,
 				8524B64C1B7762CB0045F518 /* SecondViewController.swift */,
@@ -86,6 +158,8 @@
 				8524B6511B7762CC0045F518 /* Images.xcassets */,
 				8524B6531B7762CC0045F518 /* LaunchScreen.xib */,
 				8524B6461B7762CB0045F518 /* Supporting Files */,
+				8524B66A1B77634A0045F518 /* Misc.swift */,
+				851C89D61B781E2B00E78F51 /* Cordova-Briding-Header.h */,
 			);
 			path = SwiftCordova;
 			sourceTree = "<group>";
@@ -115,6 +189,40 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8524B66C1B7763A80045F518 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8524B66D1B7763B00045F518 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8524B66D1B7763B00045F518 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8524B66E1B7764270045F518 /* indexSlideShow-1.jpg */,
+				8524B66F1B7764270045F518 /* indexSlideShow-2.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		8524B6721B7764880045F518 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				8524B6731B77648C0045F518 /* Auk */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		8524B6731B77648C0045F518 /* Auk */ = {
+			isa = PBXGroup;
+			children = (
+				8524B6781B7766590045F518 /* Auk.swift */,
+				8524B6791B7766590045F518 /* Moa.swift */,
+			);
+			name = Auk;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,6 +237,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				851C89D31B78195500E78F51 /* PBXTargetDependency */,
 			);
 			name = SwiftCordova;
 			productName = SwiftCordova;
@@ -182,6 +291,12 @@
 			mainGroup = 8524B63A1B7762CB0045F518;
 			productRefGroup = 8524B6441B7762CB0045F518 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 851C89C41B78189B00E78F51 /* Products */;
+					ProjectRef = 851C89C31B78189B00E78F51 /* CordovaLib.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8524B6421B7762CB0045F518 /* SwiftCordova */,
@@ -190,14 +305,28 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		851C89C81B78189B00E78F51 /* libCordova.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCordova.a;
+			remoteRef = 851C89C71B78189B00E78F51 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		8524B6411B7762CB0045F518 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8524B6711B7764270045F518 /* indexSlideShow-2.jpg in Resources */,
+				851C89E31B78275D00E78F51 /* www in Resources */,
 				8524B6501B7762CB0045F518 /* Main.storyboard in Resources */,
 				8524B6551B7762CC0045F518 /* LaunchScreen.xib in Resources */,
+				851C89BB1B7816D700E78F51 /* config.xml in Resources */,
 				8524B6521B7762CC0045F518 /* Images.xcassets in Resources */,
+				8524B6701B7764270045F518 /* indexSlideShow-1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,9 +344,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8524B64D1B7762CB0045F518 /* SecondViewController.swift in Sources */,
+				851C89E51B78292E00E78F51 /* Readme.md in Sources */,
+				8524B66B1B77634A0045F518 /* Misc.swift in Sources */,
 				8524B6491B7762CB0045F518 /* AppDelegate.swift in Sources */,
+				8524B67A1B7766590045F518 /* Auk.swift in Sources */,
+				8524B67B1B7766590045F518 /* Moa.swift in Sources */,
 				8524B64B1B7762CB0045F518 /* FirstViewController.swift in Sources */,
+				8524B64D1B7762CB0045F518 /* SecondViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +365,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		851C89D31B78195500E78F51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CordovaLib;
+			targetProxy = 851C89D21B78195500E78F51 /* PBXContainerItemProxy */;
+		};
 		8524B65C1B7762CC0045F518 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 8524B6421B7762CB0045F518 /* SwiftCordova */;
@@ -295,7 +433,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -334,7 +472,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -346,9 +484,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/IDE/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(BUILT_PRODUCTS_DIR)\"",
+					"\"$(OBJROOT)/UninstalledProducts/include\"",
+					"\"$(TARGET_BUILD_DIR)/usr/local/lib/include\"",
+				);
 				INFOPLIST_FILE = SwiftCordova/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/hxgqh/work/learn/ios/workspaces/code/SwiftCordova/SwiftCordova/Cordova-Briding-Header.h";
 			};
 			name = Debug;
 		};
@@ -356,9 +503,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/IDE/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(BUILT_PRODUCTS_DIR)\"",
+					"\"$(OBJROOT)/UninstalledProducts/include\"",
+					"\"$(TARGET_BUILD_DIR)/usr/local/lib/include\"",
+				);
 				INFOPLIST_FILE = SwiftCordova/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/hxgqh/work/learn/ios/workspaces/code/SwiftCordova/SwiftCordova/Cordova-Briding-Header.h";
 			};
 			name = Release;
 		};
@@ -415,6 +571,7 @@
 				8524B6661B7762CC0045F518 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8524B6671B7762CC0045F518 /* Build configuration list for PBXNativeTarget "SwiftCordovaTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +580,7 @@
 				8524B6691B7762CC0045F518 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
